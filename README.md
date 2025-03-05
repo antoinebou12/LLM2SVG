@@ -55,13 +55,4 @@ svg_output = model.predict(text_description)
 print(svg_output)  # Outputs SVG code
 ```
 
-## License
-This project is open-source under the MIT License.
-
-## Contributors
-- [Your Name]
-- [Other Contributors]
-
-## Acknowledgments
-Special thanks to the AI and graphics research community for inspiration and tools that made this project possible.
 
