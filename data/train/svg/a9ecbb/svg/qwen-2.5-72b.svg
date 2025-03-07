@@ -1,0 +1,17 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="100" width="300" height="200" rx="50" ry="50" fill="#8A2BE2" stroke="#331555" stroke-width="5"/>
+  <g transform="translate(50,300)">
+    <path d="M10,0 L15,10 L5,10 Z" fill="#8A2BE2" stroke="#331555" stroke-width="2" transform="rotate(45)"/>
+    <path d="M10,0 L15,10 L5,10 Z" fill="#8A2BE2" stroke="#331555" stroke-width="2" transform="rotate(90)"/>
+    <path d="M10,0 L15,10 L5,10 Z" fill="#8A2BE2" stroke="#331555" stroke-width="2" transform="rotate(135)"/>
+  </g>
+  <g transform="translate(350,300)">
+    <path d="M10,0 L15,10 L5,10 Z" fill="#8A2BE2" stroke="#331555" stroke-width="2" transform="rotate(225)"/>
+    <path d="M10,0 L15,10 L5,10 Z" fill="#8A2BE2" stroke="#331555" stroke-width="2" transform="rotate(270)"/>
+    <path d="M10,0 L15,10 L5,10 Z" fill="#8A2BE2" stroke="#331555" stroke-width="2" transform="rotate(315)"/>
+  </g>
+  <g>
+    <path d="M75,280 L75,350 M150,280 L150,350 M225,280 L225,350 M300,280 L300,350" stroke="#8A2BE2" stroke-width="10" stroke-linecap="round" stroke-dasharray="10, 10"/>
+    <path d="M70,350 Q75,360 80,350 M145,350 Q150,360 155,350 M220,350 Q225,360 230,350 M295,350 Q300,360 305,350" stroke="#331555" stroke-width="5" fill="none"/>
+  </g>
+</svg>

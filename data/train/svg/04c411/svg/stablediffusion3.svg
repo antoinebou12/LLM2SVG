@@ -1,0 +1,122 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    Stylized interpretation:
+    - Gradient sky (dark at top, warm glow near horizon)
+    - Subtle Milky Way effect
+    - Scattered stars
+    - Layered mountains with snow
+    - A sloping foreground with ski tracks
+  -->
+
+  <!-- Define gradients and filters -->
+  <defs>
+    <!-- Sky gradient: night at top, transitioning to warm glow at horizon -->
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0A1A33" />
+      <stop offset="70%"  stop-color="#2C4C70" />
+      <stop offset="90%"  stop-color="#466C8F" />
+      <stop offset="100%" stop-color="#F2B96E" />
+    </linearGradient>
+
+    <!-- A subtle Milky Way glow using a radial gradient -->
+    <radialGradient id="milkyWay" cx="50%" cy="20%" r="80%">
+      <!-- White center fading to transparent -->
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.7" />
+      <stop offset="40%"  stop-color="#FFFFFF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Snow on mountain peaks -->
+    <linearGradient id="snowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E8E8E8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="url(#skyGrad)" />
+
+  <!-- Milky Way glow (optional) -->
+  <circle cx="400" cy="120" r="300" fill="url(#milkyWay)" />
+
+  <!-- Stars scattered across the sky -->
+  <circle cx="100" cy="70"   r="1.5" fill="#FFFFFF" />
+  <circle cx="160" cy="50"   r="2"   fill="#FFFFFF" />
+  <circle cx="220" cy="90"   r="1.2" fill="#FFFFFF" />
+  <circle cx="280" cy="40"   r="1.5" fill="#FFFFFF" />
+  <circle cx="340" cy="80"   r="2"   fill="#FFFFFF" />
+  <circle cx="420" cy="60"   r="1.2" fill="#FFFFFF" />
+  <circle cx="500" cy="90"   r="1.5" fill="#FFFFFF" />
+  <circle cx="580" cy="50"   r="2"   fill="#FFFFFF" />
+  <circle cx="660" cy="100"  r="1.2" fill="#FFFFFF" />
+  <circle cx="740" cy="70"   r="1.5" fill="#FFFFFF" />
+
+  <!-- Mountain silhouettes -->
+  <!-- Farthest range (darker) -->
+  <path d="
+    M 0 300
+    L 120 260
+    L 220 290
+    L 320 250
+    L 400 280
+    L 480 270
+    L 580 290
+    L 700 260
+    L 800 280
+    L 800 600
+    L 0   600
+    Z
+  " fill="#4A4A4A" />
+
+  <!-- Closer range with snow-capped peaks -->
+  <path d="
+    M 0 340
+    L 100 300
+    L 200 330
+    L 300 290
+    L 400 320
+    L 500 310
+    L 600 330
+    L 700 300
+    L 800 320
+    L 800 600
+    L 0   600
+    Z
+  " fill="#5A5A5A" />
+
+  <!-- Snow caps on selected peaks -->
+  <!-- Adjust coordinates or add more shapes to taste -->
+  <path d="
+    M 95 300 L 105 290 115 300 105 305 Z
+    M 295 290 L 305 280 315 290 305 295 Z
+    M 395 320 L 405 310 415 320 405 325 Z
+    M 595 330 L 605 320 615 330 605 335 Z
+  " fill="url(#snowGrad)" />
+
+  <!-- Foreground slope (snow) -->
+  <path d="
+    M 0 420
+    C 100 400, 240 450, 380 440
+    C 520 430, 640 470, 800 450
+    L 800 600
+    L 0   600
+    Z
+  " fill="#E2E6EF" />
+
+  <!-- Ski tracks: parallel curves on the foreground slope -->
+  <path d="
+    M 80 600
+    C 100 520, 200 470, 320 440
+  " fill="none" stroke="#D0D3DA" stroke-width="4" />
+  <path d="
+    M 110 600
+    C 130 530, 230 480, 350 450
+  " fill="none" stroke="#C8CBD2" stroke-width="4" />
+
+  <!-- Optional lumps or contours in the snow -->
+  <circle cx="200" cy="550" r="10" fill="#D5DAE2" />
+  <circle cx="280" cy="560" r="12" fill="#D5DAE2" />
+  <circle cx="480" cy="550" r="8"  fill="#D5DAE2" />
+  <circle cx="600" cy="570" r="10" fill="#D5DAE2" />
+
+</svg>

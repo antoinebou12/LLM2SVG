@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define a checkered pattern with alternating black and white squares -->
+  <defs>
+    <pattern id="checkeredPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+      <rect x="0" y="0" width="10" height="10" fill="#000" />
+      <rect x="10" y="10" width="10" height="10" fill="#000" />
+      <rect x="10" y="0" width="10" height="10" fill="#fff" />
+      <rect x="0" y="10" width="10" height="10" fill="#fff" />
+    </pattern>
+  </defs>
+
+  <!-- Left pant leg -->
+  <path d="
+    M 100,100 
+    L 140,100 
+    L 130,300 
+    L 110,500 
+    L 90,500 
+    L 100,300 
+    Z" 
+    fill="url(#checkeredPattern)" stroke="#000" stroke-width="2" />
+
+  <!-- Right pant leg -->
+  <path d="
+    M 160,100 
+    L 200,100 
+    L 210,300 
+    L 190,500 
+    L 170,500 
+    L 160,300 
+    Z" 
+    fill="url(#checkeredPattern)" stroke="#000" stroke-width="2" />
+</svg>

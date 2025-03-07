@@ -1,0 +1,109 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background night sky with gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1128;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#1c2b4f;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Twinkle effect for stars -->
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect x="0" y="0" width="200" height="200" fill="url(#skyGradient)" />
+  
+  <!-- Stars -->
+  <g>
+    <!-- Small stars -->
+    <circle cx="20" cy="30" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="45" cy="15" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="70" cy="25" r="0.4" fill="white" opacity="0.6" />
+    <circle cx="95" cy="10" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="120" cy="30" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="145" cy="20" r="0.7" fill="white" opacity="0.9" />
+    <circle cx="170" cy="15" r="0.4" fill="white" opacity="0.6" />
+    <circle cx="180" cy="35" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="25" cy="50" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="50" cy="45" r="0.4" fill="white" opacity="0.6" />
+    <circle cx="75" cy="60" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="100" cy="40" r="0.4" fill="white" opacity="0.6" />
+    <circle cx="125" cy="55" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="150" cy="50" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="175" cy="60" r="0.4" fill="white" opacity="0.6" />
+    <circle cx="12" cy="70" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="40" cy="75" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="65" cy="82" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="90" cy="78" r="0.4" fill="white" opacity="0.6" />
+    <circle cx="115" cy="65" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="135" cy="75" r="0.4" fill="white" opacity="0.6" />
+    <circle cx="160" cy="68" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="185" cy="72" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="7" cy="25" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="32" cy="42" r="0.4" fill="white" opacity="0.6" />
+    <circle cx="58" cy="17" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="83" cy="32" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="107" cy="27" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="128" cy="12" r="0.4" fill="white" opacity="0.6" />
+    <circle cx="152" cy="37" r="0.5" fill="white" opacity="0.7" />
+    <circle cx="177" cy="22" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="195" cy="48" r="0.5" fill="white" opacity="0.7" />
+    
+    <!-- Medium stars -->
+    <circle cx="30" cy="20" r="0.9" fill="white" opacity="0.9" />
+    <circle cx="80" cy="15" r="0.8" fill="white" opacity="0.8" />
+    <circle cx="130" cy="25" r="0.9" fill="white" opacity="0.9" />
+    <circle cx="160" cy="40" r="0.8" fill="white" opacity="0.8" />
+    <circle cx="40" cy="35" r="0.9" fill="white" opacity="0.9" />
+    <circle cx="110" cy="45" r="0.8" fill="white" opacity="0.8" />
+    <circle cx="190" cy="25" r="0.9" fill="white" opacity="0.9" />
+    
+    <!-- Large stars with glow -->
+    <circle cx="15" cy="15" r="1.2" fill="white" />
+    <circle cx="15" cy="15" r="2.5" fill="url(#starGlow)" opacity="0.6" />
+    
+    <circle cx="60" cy="8" r="1.1" fill="white" />
+    <circle cx="60" cy="8" r="2.2" fill="url(#starGlow)" opacity="0.6" />
+    
+    <circle cx="105" cy="20" r="1.2" fill="white" />
+    <circle cx="105" cy="20" r="2.5" fill="url(#starGlow)" opacity="0.6" />
+    
+    <circle cx="165" cy="25" r="1.1" fill="white" />
+    <circle cx="165" cy="25" r="2.2" fill="url(#starGlow)" opacity="0.6" />
+    
+    <circle cx="140" cy="10" r="1.2" fill="white" />
+    <circle cx="140" cy="10" r="2.5" fill="url(#starGlow)" opacity="0.6" />
+  </g>
+  
+  <!-- Mountain layers -->
+  <!-- Far background mountains -->
+  <path d="M0,120 L15,100 L30,110 L45,90 L60,105 L75,85 L90,95 L105,75 L120,90 L135,70 L150,85 L165,65 L180,80 L200,95 L200,200 L0,200 Z" fill="#151f35" />
+  
+  <!-- Snow on far background mountains -->
+  <path d="M0,120 L15,100 L30,110 L45,90 L60,105 L75,85 L90,95 L105,75 L120,90 L135,70 L150,85 L165,65 L180,80 L200,95
+           L198,96 L180,82 L165,67 L150,87 L135,72 L120,92 L105,77 L90,97 L75,87 L60,107 L45,92 L30,112 L15,102 L2,122 Z" fill="#a0b4d6" opacity="0.8" />
+  
+  <!-- Background mountains -->
+  <path d="M0,140 L25,110 L40,120 L60,90 L85,115 L110,85 L140,105 L165,80 L185,95 L200,115 L200,200 L0,200 Z" fill="#192841" />
+  
+  <!-- Snow on background mountains -->
+  <path d="M0,140 L25,110 L40,120 L60,90 L85,115 L110,85 L140,105 L165,80 L185,95 L200,115 
+           L198,116 L185,98 L165,83 L140,108 L110,88 L85,118 L60,93 L40,123 L25,113 L2,142 Z" fill="#b3c6e6" />
+  
+  <!-- Middle mountains -->
+  <path d="M0,155 L20,135 L30,145 L50,120 L65,130 L80,110 L100,130 L120,105 L140,120 L160,95 L180,115 L200,130 L200,200 L0,200 Z" fill="#233559" />
+  
+  <!-- Snow on middle mountains -->
+  <path d="M0,155 L20,135 L30,145 L50,120 L65,130 L80,110 L100,130 L120,105 L140,120 L160,95 L180,115 L200,130
+           L198,132 L180,117 L160,97 L140,122 L120,107 L100,132 L80,112 L65,132 L50,122 L30,147 L20,137 L2,157 Z" fill="#cfdaec" />
+  
+  <!-- Foreground mountains -->
+  <path d="M0,170 L20,150 L35,160 L55,135 L70,145 L90,120 L115,150 L135,130 L155,140 L175,115 L200,150 L200,200 L0,200 Z" fill="#324b78" />
+  
+  <!-- Snow on foreground mountains -->
+  <path d="M0,170 L20,150 L35,160 L55,135 L70,145 L90,120 L115,150 L135,130 L155,140 L175,115 L200,150
+           L198,152 L175,118 L155,143 L135,133 L115,153 L90,123 L70,148 L55,138 L35,163 L20,153 L2,172 Z" fill="white" />
+</svg>

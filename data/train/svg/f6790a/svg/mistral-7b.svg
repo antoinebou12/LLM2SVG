@@ -1,0 +1,14 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="200" cy="200" r="100" fill="bronze"/>
+
+  <polygon points="180,70 260,70 260,330 180,330 180,70" fill="purple"/>
+  <polygon transform="rotate(60) scale(0.85)" points="180,70 260,70 260,330 180,330 180,70" fill="purple"/>
+  <polygon transform="rotate(120) scale(0.85)" points="180,70 260,70 260,330 180,330 180,70" fill="purple"/>
+  <polygon transform="rotate(180) scale(0.85)" points="180,70 260,70 260,330 180,330 180,70" fill="purple"/>
+  <polygon transform="rotate(240) scale(0.85)" points="180,70 260,70 260,330 180,330 180,70" fill="purple"/>
+  <polygon transform="rotate(300) scale(0.85)" points="180,70 260,70 260,330 180,330 180,70" fill="purple"/>
+
+  <path d="M180,300 C180,300 210,280 240,280 C260,280 280,300 280,300 C280,300 250,320 220,320 C190,320 180,300 180,300 Z" fill="purple"/>
+  <path d="M160,290 C160,290 190,270 220,270 C240,270 260,290 260,290 C260,290 240,310 210,310 C180,310 160,290 160,290 Z" fill="purple"/>
+  <path d="M150,280 C150,280 180,260 210,260 C240,260 260,280 260,280 C260,280 240,300 210,300 C180,300 150,280 150,280 Z" fill="purple"/>
+</svg>

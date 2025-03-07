@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients for the night sky and the moon -->
+  <defs>
+    <radialGradient id="nightSky" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#0B1C3C"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <radialGradient id="moonGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffacd"/>
+      <stop offset="100%" stop-color="#f0e68c"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background sky -->
+  <rect width="800" height="600" fill="url(#nightSky)" />
+
+  <!-- Stars scattered across the sky -->
+  <circle cx="50" cy="70" r="1.5" fill="white"/>
+  <circle cx="120" cy="30" r="2" fill="white"/>
+  <circle cx="200" cy="90" r="1.2" fill="white"/>
+  <circle cx="300" cy="60" r="1.8" fill="white"/>
+  <circle cx="400" cy="20" r="1.5" fill="white"/>
+  <circle cx="500" cy="100" r="1.8" fill="white"/>
+  <circle cx="650" cy="50" r="1.2" fill="white"/>
+  <circle cx="700" cy="90" r="1.5" fill="white"/>
+  <circle cx="750" cy="40" r="1.8" fill="white"/>
+  <circle cx="600" cy="70" r="1.2" fill="white"/>
+  <circle cx="550" cy="30" r="1.5" fill="white"/>
+
+  <!-- A luminous moon -->
+  <circle cx="700" cy="100" r="40" fill="url(#moonGradient)" />
+
+  <!-- Mountain range -->
+  <!-- Left mountain -->
+  <polygon points="0,600 150,350 300,600" fill="#3c3c3c" />
+  <!-- Center mountain -->
+  <polygon points="200,600 400,300 600,600" fill="#4a4a4a" />
+  <!-- Right mountain -->
+  <polygon points="500,600 650,400 800,600" fill="#3c3c3c" />
+
+  <!-- Snow caps on the peaks -->
+  <!-- Snow cap for left mountain -->
+  <polygon points="140,360 150,350 160,360 150,365" fill="white" />
+  <!-- Snow cap for center mountain -->
+  <polygon points="380,310 400,300 420,310 400,315" fill="white" />
+  <!-- Snow cap for right mountain -->
+  <polygon points="640,410 650,400 660,410 650,415" fill="white" />
+</svg>

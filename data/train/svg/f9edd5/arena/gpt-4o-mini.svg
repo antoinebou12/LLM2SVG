@@ -1,0 +1,19 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="white"/>
+  <g transform="translate(50, 50)">
+    <polygon points="0,100 50,0 100,100" fill="khaki"/>
+    <polygon points="0,0 50,100 100,0" fill="khaki" transform="translate(120, 0)"/>
+    <polygon points="0,100 50,0 100,100" fill="khaki" transform="translate(240, 0)"/>
+    <polygon points="0,0 50,100 100,0" fill="khaki" transform="translate(60, 120)"/>
+    <polygon points="0,100 50,0 100,100" fill="khaki" transform="translate(180, 120)"/>
+    <polygon points="0,0 50,100 100,0" fill="khaki" transform="translate(300, 120)"/>
+  </g>
+  <g transform="translate(50, 50)">
+    <path d="M100 0 A 50 50 0 0 1 100 100 A 50 50 0 0 1 100 0 Z" fill="azure" transform="translate(30, 30)"/>
+    <path d="M100 0 A 50 50 0 0 1 100 100 A 50 50 0 0 1 100 0 Z" fill="azure" transform="translate(150, 30)"/>
+    <path d="M100 0 A 50 50 0 0 1 100 100 A 50 50 0 0 1 100 0 Z" fill="azure" transform="translate(270, 30)"/>
+    <path d="M100 0 A 50 50 0 0 1 100 100 A 50 50 0 0 1 100 0 Z" fill="azure" transform="translate(30, 150)"/>
+    <path d="M100 0 A 50 50 0 0 1 100 100 A 50 50 0 0 1 100 0 Z" fill="azure" transform="translate(150, 150)"/>
+    <path d="M100 0 A 50 50 0 0 1 100 100 A 50 50 0 0 1 100 0 Z" fill="azure" transform="translate(270, 150)"/>
+  </g>
+</svg>

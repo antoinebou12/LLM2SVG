@@ -1,0 +1,43 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#B0E0E6"/>
+    </linearGradient>
+    <linearGradient id="oceanGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E90FF"/>
+      <stop offset="100%" stop-color="#00008B"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky background -->
+  <rect x="0" y="0" width="400" height="400" fill="url(#skyGradient)"/>
+  <!-- Sun in the sky -->
+  <circle cx="320" cy="80" r="30" fill="yellow" opacity="0.8"/>
+  <!-- Ocean -->
+  <rect x="0" y="255" width="400" height="145" fill="url(#oceanGradient)"/>
+  <!-- Cliff formation -->
+  <path d="M0,400 L0,280 L40,260 L80,255 L100,250 L140,245 L200,250 L260,250 L320,245 L400,240 L400,400 Z" fill="#708090" stroke="#555" stroke-width="2"/>
+  <!-- Platform on the cliff for the lighthouse -->
+  <rect x="100" y="240" width="40" height="10" fill="#555555" stroke="black" stroke-width="1"/>
+  <!-- Lighthouse tower -->
+  <rect x="110" y="100" width="20" height="140" fill="white" stroke="black" stroke-width="1"/>
+  <!-- Red stripes on the tower -->
+  <rect x="110" y="230" width="20" height="10" fill="red"/>
+  <rect x="110" y="210" width="20" height="10" fill="red"/>
+  <rect x="110" y="190" width="20" height="10" fill="red"/>
+  <rect x="110" y="170" width="20" height="10" fill="red"/>
+  <rect x="110" y="150" width="20" height="10" fill="red"/>
+  <rect x="110" y="130" width="20" height="10" fill="red"/>
+  <rect x="110" y="110" width="20" height="10" fill="red"/>
+  <!-- Lantern dome -->
+  <circle cx="120" cy="90" r="10" fill="#FFD700" stroke="black" stroke-width="1"/>
+  <!-- Door on the platform -->
+  <rect x="115" y="247" width="10" height="6" fill="#654321" stroke="black" stroke-width="1"/>
+  <!-- Ocean waves -->
+  <path d="M20,260 C40,255 60,265 80,260" stroke="white" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M100,265 C120,260 140,270 160,265" stroke="white" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M180,260 C200,255 220,265 240,260" stroke="white" stroke-width="2" fill="none" opacity="0.7"/>
+  <!-- Seagulls in the sky -->
+  <path d="M280,80 l5,-5 l5,5" stroke="white" stroke-width="2" fill="none"/>
+  <path d="M300,100 l5,-5 l5,5" stroke="white" stroke-width="2" fill="none"/>
+</svg>

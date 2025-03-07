@@ -1,0 +1,14 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#EDEDED"/>
+  <path d="M100,50 Q200,0 300,50 Q350,100 300,150 Q200,200 100,150 Q50,100 100,50 Z" fill="#9B59B6" stroke="#8E44AD" stroke-width="2"/>
+  <path d="M100,150 L300,150" stroke="#8E44AD" stroke-width="4"/>
+  <path d="M100,150 Q150,200 100,250 Q150,220 100,250 Q150,240 100,250 Q150,260 100,250" fill="#9B59B6"/>
+  <path d="M300,150 Q250,200 300,250 Q250,220 300,250 Q250,240 300,250 Q250,260 300,250" fill="#9B59B6"/>
+  <g>
+    <path d="M100,250 L90,270 L110,270 Z" fill="#8E44AD"/>
+    <path d="M150,250 L140,270 L160,270 Z" fill="#8E44AD"/>
+    <path d="M200,250 L190,270 L210,270 Z" fill="#8E44AD"/>
+    <path d="M250,250 L240,270 L260,270 Z" fill="#8E44AD"/>
+    <path d="M300,250 L290,270 L310,270 Z" fill="#8E44AD"/>
+  </g>
+</svg>

@@ -1,0 +1,212 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for gradients and patterns -->
+  <defs>
+    <!-- Night sky gradient -->
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a2a;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#1a1a4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a5a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Moon glow -->
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:white;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Northern lights gradient -->
+    <linearGradient id="auroraGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#26c9ff;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#3dffbd;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#26c9ff;stop-opacity:0" />
+    </linearGradient>
+    
+    <!-- Snow texture pattern -->
+    <pattern id="snowTexture" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#ffffff" opacity="0.5" />
+      <circle cx="30" cy="25" r="0.8" fill="#ffffff" opacity="0.5" />
+      <circle cx="50" cy="15" r="1.2" fill="#ffffff" opacity="0.5" />
+      <circle cx="70" cy="30" r="0.9" fill="#ffffff" opacity="0.5" />
+      <circle cx="90" cy="10" r="1.1" fill="#ffffff" opacity="0.5" />
+      <circle cx="20" cy="50" r="1" fill="#ffffff" opacity="0.5" />
+      <circle cx="40" cy="70" r="0.8" fill="#ffffff" opacity="0.5" />
+      <circle cx="60" cy="60" r="1.2" fill="#ffffff" opacity="0.5" />
+      <circle cx="80" cy="80" r="0.9" fill="#ffffff" opacity="0.5" />
+      <circle cx="95" cy="45" r="1.1" fill="#ffffff" opacity="0.5" />
+    </pattern>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="400" height="400" fill="url(#skyGradient)" />
+  
+  <!-- Northern lights effect -->
+  <path d="M0,150 C50,130 100,160 150,140 S250,100 300,130 S350,160 400,140 L400,250 L0,250 Z" 
+        fill="url(#auroraGradient)" opacity="0.3">
+    <animate attributeName="d" 
+             dur="15s" 
+             repeatCount="indefinite" 
+             values="M0,150 C50,130 100,160 150,140 S250,100 300,130 S350,160 400,140 L400,250 L0,250 Z;
+                     M0,150 C50,140 100,120 150,150 S250,130 300,110 S350,140 400,130 L400,250 L0,250 Z;
+                     M0,150 C50,130 100,160 150,140 S250,100 300,130 S350,160 400,140 L400,250 L0,250 Z" />
+  </path>
+  
+  <!-- Stars -->
+  <g id="stars">
+    <circle cx="12" cy="20" r="0.7" fill="white" opacity="0.8" />
+    <circle cx="36" cy="45" r="0.8" fill="white" opacity="0.7" />
+    <circle cx="58" cy="12" r="0.6" fill="white" opacity="0.9" />
+    <circle cx="84" cy="34" r="0.9" fill="white" opacity="0.8" />
+    <circle cx="102" cy="55" r="0.7" fill="white" opacity="0.7" />
+    <circle cx="126" cy="23" r="0.8" fill="white" opacity="0.9" />
+    <circle cx="148" cy="56" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="172" cy="34" r="0.9" fill="white" opacity="0.7" />
+    <circle cx="198" cy="12" r="0.7" fill="white" opacity="0.9" />
+    <circle cx="216" cy="45" r="0.8" fill="white" opacity="0.8" />
+    <circle cx="234" cy="67" r="0.6" fill="white" opacity="0.7" />
+    <circle cx="258" cy="23" r="0.9" fill="white" opacity="0.9" />
+    <circle cx="278" cy="45" r="0.7" fill="white" opacity="0.8" />
+    <circle cx="304" cy="12" r="0.8" fill="white" opacity="0.7" />
+    <circle cx="326" cy="56" r="0.6" fill="white" opacity="0.9" />
+    <circle cx="352" cy="34" r="0.9" fill="white" opacity="0.8" />
+    <circle cx="376" cy="45" r="0.7" fill="white" opacity="0.7" />
+    <circle cx="392" cy="12" r="0.8" fill="white" opacity="0.9" />
+    
+    <!-- Second layer of stars -->
+    <circle cx="24" cy="78" r="0.7" fill="white" opacity="0.9" />
+    <circle cx="46" cy="98" r="0.9" fill="white" opacity="0.7" />
+    <circle cx="66" cy="64" r="0.8" fill="white" opacity="0.8" />
+    <circle cx="92" cy="82" r="0.6" fill="white" opacity="0.9" />
+    <circle cx="112" cy="104" r="0.7" fill="white" opacity="0.7" />
+    <circle cx="138" cy="72" r="0.9" fill="white" opacity="0.9" />
+    <circle cx="154" cy="94" r="0.8" fill="white" opacity="0.8" />
+    <circle cx="178" cy="76" r="0.6" fill="white" opacity="0.7" />
+    <circle cx="204" cy="64" r="0.7" fill="white" opacity="0.9" />
+    <circle cx="224" cy="98" r="0.9" fill="white" opacity="0.8" />
+    <circle cx="248" cy="72" r="0.8" fill="white" opacity="0.7" />
+    <circle cx="268" cy="94" r="0.6" fill="white" opacity="0.9" />
+    <circle cx="292" cy="76" r="0.7" fill="white" opacity="0.8" />
+    <circle cx="312" cy="104" r="0.9" fill="white" opacity="0.7" />
+    <circle cx="338" cy="72" r="0.8" fill="white" opacity="0.9" />
+    <circle cx="358" cy="94" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="386" cy="76" r="0.7" fill="white" opacity="0.7" />
+    
+    <!-- Third layer of stars -->
+    <circle cx="14" cy="124" r="0.9" fill="white" opacity="0.8" />
+    <circle cx="38" cy="148" r="0.7" fill="white" opacity="0.9" />
+    <circle cx="56" cy="118" r="0.8" fill="white" opacity="0.7" />
+    <circle cx="78" cy="136" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="104" cy="154" r="0.9" fill="white" opacity="0.9" />
+    <circle cx="126" cy="122" r="0.7" fill="white" opacity="0.7" />
+    <circle cx="146" cy="142" r="0.8" fill="white" opacity="0.8" />
+    <circle cx="168" cy="128" r="0.6" fill="white" opacity="0.9" />
+    <circle cx="194" cy="116" r="0.9" fill="white" opacity="0.7" />
+    <circle cx="218" cy="134" r="0.7" fill="white" opacity="0.8" />
+    <circle cx="236" cy="158" r="0.8" fill="white" opacity="0.9" />
+    <circle cx="262" cy="126" r="0.6" fill="white" opacity="0.7" />
+    <circle cx="284" cy="144" r="0.9" fill="white" opacity="0.8" />
+    <circle cx="304" cy="156" r="0.7" fill="white" opacity="0.9" />
+    <circle cx="324" cy="128" r="0.8" fill="white" opacity="0.7" />
+    <circle cx="346" cy="142" r="0.6" fill="white" opacity="0.8" />
+    <circle cx="372" cy="124" r="0.9" fill="white" opacity="0.9" />
+    <circle cx="396" cy="138" r="0.7" fill="white" opacity="0.7" />
+  </g>
+
+  <!-- Twinkling stars with animation -->
+  <g id="twinklingStars">
+    <circle cx="50" cy="50" r="1.8" fill="white">
+      <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="120" cy="30" r="2" fill="white">
+      <animate attributeName="opacity" values="1;0.4;1" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="200" cy="70" r="1.7" fill="white">
+      <animate attributeName="opacity" values="1;0.5;1" dur="5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="40" r="2" fill="white">
+      <animate attributeName="opacity" values="1;0.3;1" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="350" cy="80" r="1.9" fill="white">
+      <animate attributeName="opacity" values="1;0.4;1" dur="4.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="80" cy="120" r="1.8" fill="white">
+      <animate attributeName="opacity" values="1;0.5;1" dur="3.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="150" cy="100" r="1.7" fill="white">
+      <animate attributeName="opacity" values="1;0.3;1" dur="4.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="230" cy="90" r="2" fill="white">
+      <animate attributeName="opacity" values="1;0.4;1" dur="3.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="320" cy="110" r="1.8" fill="white">
+      <animate attributeName="opacity" values="1;0.5;1" dur="4.7s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Shooting star -->
+  <g>
+    <line x1="300" y1="50" x2="270" y2="80" stroke="white" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" 
+               values="0;0;0;0;0;0.8;0" 
+               dur="10s" 
+               repeatCount="indefinite" 
+               begin="2s" />
+    </line>
+    <circle cx="270" cy="80" r="1" fill="white" opacity="0">
+      <animate attributeName="opacity" 
+               values="0;0;0;0;0;1;0" 
+               dur="10s" 
+               repeatCount="indefinite" 
+               begin="2s" />
+    </circle>
+  </g>
+
+  <!-- Moon with glow effect -->
+  <circle cx="80" cy="70" r="35" fill="url(#moonGlow)" opacity="0.3" />
+  <circle cx="80" cy="70" r="25" fill="#fffaea" />
+  
+  <!-- Moon craters -->
+  <circle cx="70" cy="60" r="5" fill="#f0f0e8" opacity="0.7" />
+  <circle cx="90" cy="75" r="4" fill="#f0f0e8" opacity="0.7" />
+  <circle cx="75" cy="80" r="3" fill="#f0f0e8" opacity="0.7" />
+  
+  <!-- Far distant mountains -->
+  <polygon points="0,220 20,210 40,215 60,205 80,210 100,200 120,210 140,205 160,195 180,205 200,190 220,200 240,195 260,185 280,195 300,190 320,200 340,190 360,195 380,185 400,190 400,400 0,400" 
+           fill="#3a3a5a" />
+  
+  <!-- Middle mountains -->
+  <polygon points="0,250 25,230 50,240 75,220 100,235 125,215 150,230 175,210 200,225 225,205 250,220 275,200 300,215 325,195 350,210 375,190 400,200 400,400 0,400" 
+           fill="#2a2a4a" />
+  
+  <!-- Front mountains with snow caps -->
+  <polygon points="0,280 30,250 60,270 90,230 120,255 150,230 180,260 210,235 240,265 270,240 300,265 330,235 360,260 390,240 400,245 400,400 0,400" 
+           fill="#1a1a3a" />
+  
+  <!-- Middle mountain snow -->
+  <polygon points="125,215 130,220 140,217 150,230 155,225 165,228 175,210 180,215 190,212 200,225 205,220 215,223 225,205 230,210 240,207 250,220 255,215 265,218 275,200 280,205 290,202 300,215 305,210 315,213 325,195 330,200 340,197 350,210 355,205 365,208 375,190 380,195 390,192 400,200 400,220 390,210 380,215 370,205 360,210 350,220 340,215 330,210 320,220 310,215 300,225 290,215 280,220 270,210 260,215 250,225 240,220 230,215 220,225 210,220 200,230 190,225 180,220 170,225 160,220 150,235 140,225 130,230 120,220 0,250" 
+           fill="#e0e0e8" opacity="0.3" />
+           
+  <!-- Snow caps on front mountains -->
+  <polygon points="30,250 35,255 45,252 60,270 65,265 75,268 90,230 95,235 105,232 120,255 125,250 135,253 150,230 155,235 165,232 180,260 185,255 195,258 210,235 215,240 225,237 240,265 245,260 255,263 270,240 275,245 285,242 300,265 305,260 315,263 330,235 335,240 345,237 360,260 365,255 375,258 390,240 395,245 400,245 400,260 390,250 370,265 350,245 330,245 320,255 290,230 270,250 260,255 250,250 240,270 230,245 220,240 200,255 190,245 180,265 160,240 150,240 135,260 125,245 115,260 105,245 95,235 85,245 75,270 65,275 55,260 45,255 35,260 25,255 0,280" 
+           fill="white" />
+  
+  <!-- Snow texture on mountain peaks -->
+  <polygon points="30,250 35,255 45,252 60,270 65,265 75,268 90,230 95,235 105,232 120,255 125,250 135,253 150,230 155,235 165,232 180,260 185,255 195,258 210,235 215,240 225,237 240,265 245,260 255,263 270,240 275,245 285,242 300,265 305,260 315,263 330,235 335,240 345,237 360,260 365,255 375,258 390,240 395,245 400,245 400,260 390,250 370,265 350,245 330,245 320,255 290,230 270,250 260,255 250,250 240,270 230,245 220,240 200,255 190,245 180,265 160,240 150,240 135,260 125,245 115,260 105,245 95,235 85,245 75,270 65,275 55,260 45,255 35,260 25,255 0,280" 
+           fill="url(#snowTexture)" opacity="0.1" />
+  
+  <!-- Snow on foreground -->
+  <path d="M0,350 C40,345 80,355 120,350 S180,340 220,350 S280,360 320,350 S380,340 400,350 L400,400 L0,400 Z" 
+        fill="white" />
+  
+  <!-- Snow texture for foreground -->
+  <path d="M0,350 C40,345 80,355 120,350 S180,340 220,350 S280,360 320,350 S380,340 400,350 L400,400 L0,400 Z" 
+        fill="url(#snowTexture)" opacity="0.2" />
+  
+  <!-- Snow reflections with subtle blue tint -->
+  <path d="M0,350 C40,345 80,355 120,350 S180,340 220,350 S280,360 320,350 S380,340 400,350 L400,370 L0,370 Z" 
+        fill="#e6eeff" opacity="0.3" />
+        
+  <!-- Subtle blue shadows on snow -->
+  <path d="M30,350 Q60,355 90,352 T150,348 T210,354 T270,348 T330,352 T390,348 L400,400 L0,400 L0,354 Z" 
+        fill="#c0d8ff" opacity="0.2" />
+</svg>

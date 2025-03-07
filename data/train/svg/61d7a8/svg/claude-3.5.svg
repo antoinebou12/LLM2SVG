@@ -1,0 +1,29 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="corduroy" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#8B1C34"/>
+      <path d="M0 0 V10 M5 0 V10" stroke="#761829" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Main pants shape -->
+  <path d="M100 50 L300 50 C310 50 320 60 320 70 L320 350 C320 360 310 370 300 370 L250 370 L200 300 L150 370 L100 370 C90 370 80 360 80 350 L80 70 C80 60 90 50 100 50 Z" fill="url(#corduroy)"/>
+  
+  <!-- Left patch pocket -->
+  <rect x="100" y="120" width="80" height="90" rx="10" fill="url(#corduroy)" stroke="#761829" stroke-width="2"/>
+  
+  <!-- Right patch pocket -->
+  <rect x="220" y="120" width="80" height="90" rx="10" fill="url(#corduroy)" stroke="#761829" stroke-width="2"/>
+  
+  <!-- Silver buttons -->
+  <circle cx="140" cy="140" r="8" fill="#C0C0C0" stroke="#A8A8A8" stroke-width="1"/>
+  <circle cx="260" cy="140" r="8" fill="#C0C0C0" stroke="#A8A8A8" stroke-width="1"/>
+  
+  <!-- Button details -->
+  <circle cx="140" cy="140" r="4" fill="none" stroke="#A8A8A8" stroke-width="1"/>
+  <circle cx="260" cy="140" r="4" fill="none" stroke="#A8A8A8" stroke-width="1"/>
+  
+  <!-- Seam lines -->
+  <path d="M200 50 L200 300" stroke="#761829" stroke-width="2" fill="none"/>
+  <path d="M100 50 C150 70 250 70 300 50" stroke="#761829" stroke-width="2" fill="none"/>
+</svg>

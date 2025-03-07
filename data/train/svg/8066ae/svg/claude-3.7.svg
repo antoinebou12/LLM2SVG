@@ -1,0 +1,78 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background with gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a8f" />
+      <stop offset="100%" stop-color="#5b89c7" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#396181" />
+      <stop offset="100%" stop-color="#1a3a63" />
+    </linearGradient>
+    <radialGradient id="lightBeam" cx="200" cy="125" r="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fffacc" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#fffacc" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="400" height="250" fill="url(#skyGradient)" />
+
+  <!-- Light beam -->
+  <path d="M200,125 L400,220 L400,250 L200,250 Z" fill="url(#lightBeam)" />
+  
+  <!-- Ocean -->
+  <rect y="250" width="400" height="150" fill="url(#waterGradient)" />
+  
+  <!-- Ocean waves -->
+  <g opacity="0.5">
+    <path d="M0,265 Q50,255 100,265 Q150,275 200,265 Q250,255 300,265 Q350,275 400,265 L400,280 L0,280 Z" fill="#5b89c7" opacity="0.3" />
+    <path d="M0,285 Q50,275 100,285 Q150,295 200,285 Q250,275 300,285 Q350,295 400,285 L400,300 L0,300 Z" fill="#5b89c7" opacity="0.3" />
+    <path d="M0,305 Q50,295 100,305 Q150,315 200,305 Q250,295 300,305 Q350,315 400,305 L400,320 L0,320 Z" fill="#5b89c7" opacity="0.3" />
+    <path d="M0,325 Q50,315 100,325 Q150,335 200,325 Q250,315 300,325 Q350,335 400,325 L400,340 L0,340 Z" fill="#5b89c7" opacity="0.3" />
+  </g>
+
+  <!-- Cliff -->
+  <path d="M120,250 L220,250 L220,330 Q190,320 170,330 Q150,340 120,330 Z" fill="#555555" />
+  <path d="M120,250 L220,250 L220,330 Q190,320 170,330 Q150,340 120,330 Z" fill="#777777" opacity="0.5" />
+
+  <!-- Lighthouse base -->
+  <rect x="160" y="210" width="40" height="40" fill="#cc9966" />
+  
+  <!-- Lighthouse tower -->
+  <rect x="170" y="150" width="20" height="60" fill="white" />
+  <rect x="170" y="150" width="20" height="10" fill="red" />
+  <rect x="170" y="170" width="20" height="10" fill="red" />
+  <rect x="170" y="190" width="20" height="10" fill="red" />
+  
+  <!-- Lighthouse top -->
+  <path d="M165,150 L195,150 L180,120 Z" fill="#882200" />
+  
+  <!-- Lighthouse light housing -->
+  <ellipse cx="180" cy="125" rx="10" ry="10" fill="#ffeecc" stroke="#882200" stroke-width="1" />
+  <ellipse cx="180" cy="125" rx="5" ry="5" fill="#fffacc" />
+
+  <!-- Lighthouse railing -->
+  <rect x="165" y="150" width="30" height="3" fill="#882200" />
+
+  <!-- Lighthouse door -->
+  <rect x="175" y="230" width="10" height="20" fill="#882200" />
+  
+  <!-- Stars -->
+  <g fill="white">
+    <circle cx="50" cy="50" r="1" />
+    <circle cx="80" cy="30" r="1" />
+    <circle cx="120" cy="70" r="1" />
+    <circle cx="150" cy="40" r="1" />
+    <circle cx="250" cy="60" r="1" />
+    <circle cx="280" cy="30" r="1" />
+    <circle cx="320" cy="50" r="1" />
+    <circle cx="350" cy="90" r="1" />
+    <circle cx="370" cy="20" r="1.5" />
+    <circle cx="30" cy="100" r="1" />
+  </g>
+  
+  <!-- Moon -->
+  <circle cx="60" cy="60" r="15" fill="#fffadd" />
+  <circle cx="55" cy="55" r="13" fill="#1a3a8f" />
+</svg>

@@ -1,0 +1,18 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="midnightblue"/>
+  <polygon points="50,300 150,100 250,300" fill="white" />
+  <polygon points="100,300 200,150 300,300" fill="lightgray" />
+  <polygon points="150,300 250,200 350,300" fill="whitesmoke" />
+  <circle cx="70" cy="50" r="2" fill="white"/>
+  <circle cx="210" cy="40" r="3" fill="white"/>
+  <circle cx="300" cy="60" r="1.5" fill="white"/>
+  <circle cx="100" cy="70" r="2.5" fill="white"/>
+  <circle cx="320" cy="80" r="2" fill="white"/>
+  <circle cx="150" cy="20" r="1" fill="white"/>
+  <circle cx="250" cy="10" r="4" fill="white"/>
+  <circle cx="180" cy="90" r="2" fill="white"/>
+  <circle cx="380" cy="30" r="3" fill="white"/>
+  <circle cx="20" cy="100" r="2.5" fill="white"/>
+  <circle cx="350" cy="120" r="1.5" fill="white"/>
+  <circle cx="270" cy="180" r="2.5" fill="white"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f5f5f5" />
+  
+  <!-- Legs -->
+  <g fill="#800020">
+    <!-- Left leg -->
+    <path d="M120 50 Q100 150 120 350 L170 350 Q150 200 170 50 Z" />
+    <!-- Right leg -->
+    <path d="M280 50 Q300 150 280 350 L230 350 Q250 200 230 50 Z" />
+    <!-- Waist -->
+    <rect x="120" y="40" width="160" height="30" />
+  </g>
+  
+  <!-- Corduroy texture -->
+  <g stroke="#590016" stroke-width="3" opacity="0.2">
+    <line x1="130" y1="40" x2="130" y2="350"/>
+    <line x1="145" y1="40" x2="145" y2="350"/>
+    <line x1="160" y1="40" x2="160" y2="350"/>
+    <line x1="175" y1="40" x2="175" y2="350"/>
+    <line x1="190" y1="40" x2="190" y2="350"/>
+    <line x1="205" y1="40" x2="205" y2="350"/>
+    <line x1="220" y1="40" x2="220" y2="350"/>
+    <line x1="235" y1="40" x2="235" y2="350"/>
+    <line x1="250" y1="40" x2="250" y2="350"/>
+    <line x1="265" y1="40" x2="265" y2="350"/>
+  </g>
+  
+  <!-- Patch pockets -->
+  <rect x="130" y="80" width="50" height="60" fill="#a03042" stroke="#590016" stroke-width="2" rx="5"/>
+  <rect x="220" y="80" width="50" height="60" fill="#a03042" stroke="#590016" stroke-width="2" rx="5"/>
+  
+  <!-- Pocket buttons -->
+  <circle cx="155" cy="110" r="4" fill="#dcdcdc" stroke="#8a8a8a"/>
+  <circle cx="245" cy="110" r="4" fill="#dcdcdc" stroke="#8a8a8a"/>
+  
+  <!-- Waist buttons -->
+  <circle cx="200" cy="55" r="5" fill="#dcdcdc" stroke="#8a8a8a"/>
+  <circle cx="170" cy="55" r="5" fill="#dcdcdc" stroke="#8a8a8a"/>
+  <circle cx="230" cy="55" r="5" fill="#dcdcdc" stroke="#8a8a8a"/>
+  
+  <!-- Stitching detail -->
+  <g stroke="#590016" stroke-width="2" fill="none">
+    <rect x="122" y="42" width="156" height="26" rx="3"/>
+    <rect x="132" y="82" width="46" height="56" rx="3"/>
+    <rect x="222" y="82" width="46" height="56" rx="3"/>
+    <path d="M170 52 L230 52"/>
+  </g>
+</svg>

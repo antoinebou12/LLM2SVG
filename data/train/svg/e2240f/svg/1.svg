@@ -1,0 +1,73 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5A5A5A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3D3D3D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="furGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6E6E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C4C4C4;stop-opacity:1" />
+    </linearGradient>
+    <filter id="furTexture" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="2" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <pattern id="woolTexture" patternUnits="userSpaceOnUse" width="20" height="20">
+      <path d="M0,10 Q5,5 10,10 T 20,10" stroke="#4A4A4A" stroke-width="1" fill="none" opacity="0.2"/>
+      <path d="M0,15 Q5,10 10,15 T 20,15" stroke="#4A4A4A" stroke-width="1" fill="none" opacity="0.2"/>
+      <path d="M0,5 Q5,0 10,5 T 20,5" stroke="#4A4A4A" stroke-width="1" fill="none" opacity="0.2"/>
+    </pattern>
+  </defs>
+  
+  <!-- Coat base -->
+  <path d="M120,90 L120,330 C120,340 160,350 200,350 C240,350 280,340 280,330 L280,90 C280,80 250,70 200,80 C150,70 120,80 120,90 Z" fill="url(#coatGradient)"/>
+  
+  <!-- Coat texture overlay -->
+  <path d="M120,90 L120,330 C120,340 160,350 200,350 C240,350 280,340 280,330 L280,90 C280,80 250,70 200,80 C150,70 120,80 120,90 Z" fill="url(#woolTexture)" opacity="0.3"/>
+  
+  <!-- Left side of coat -->
+  <path d="M120,90 L120,330 L190,350 L195,90 Z" fill="url(#coatGradient)" stroke="#333" stroke-width="1"/>
+  
+  <!-- Right side of coat -->
+  <path d="M280,90 L280,330 L210,350 L205,90 Z" fill="url(#coatGradient)" stroke="#333" stroke-width="1"/>
+  
+  <!-- Crease lines -->
+  <path d="M160,100 L160,320" stroke="#333" stroke-width="1" opacity="0.3"/>
+  <path d="M240,100 L240,320" stroke="#333" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Buttons -->
+  <circle cx="195" cy="130" r="5" fill="#2A2A2A" stroke="#222" stroke-width="1"/>
+  <circle cx="195" cy="170" r="5" fill="#2A2A2A" stroke="#222" stroke-width="1"/>
+  <circle cx="195" cy="210" r="5" fill="#2A2A2A" stroke="#222" stroke-width="1"/>
+  <circle cx="195" cy="250" r="5" fill="#2A2A2A" stroke="#222" stroke-width="1"/>
+  
+  <!-- Fur collar -->
+  <path d="M120,90 C140,60 180,50 200,55 C220,50 260,60 280,90 C260,80 230,70 200,75 C170,70 140,80 120,90 Z" fill="url(#furGradient)" filter="url(#furTexture)" stroke="#AAA" stroke-width="1"/>
+  <path d="M120,90 C140,70 180,65 200,75 C220,65 260,70 280,90" fill="none" stroke="#DDD" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Fur texture details -->
+  <g opacity="0.7">
+    <path d="M130,80 Q132,75 134,80" stroke="#DDD" stroke-width="1" />
+    <path d="M140,75 Q142,70 144,75" stroke="#DDD" stroke-width="1" />
+    <path d="M150,70 Q152,65 154,70" stroke="#DDD" stroke-width="1" />
+    <path d="M160,65 Q162,60 164,65" stroke="#DDD" stroke-width="1" />
+    <path d="M170,63 Q172,58 174,63" stroke="#DDD" stroke-width="1" />
+    <path d="M180,60 Q182,55 184,60" stroke="#DDD" stroke-width="1" />
+    <path d="M190,58 Q192,53 194,58" stroke="#DDD" stroke-width="1" />
+    <path d="M200,57 Q202,52 204,57" stroke="#DDD" stroke-width="1" />
+    <path d="M210,58 Q212,53 214,58" stroke="#DDD" stroke-width="1" />
+    <path d="M220,60 Q222,55 224,60" stroke="#DDD" stroke-width="1" />
+    <path d="M230,63 Q232,58 234,63" stroke="#DDD" stroke-width="1" />
+    <path d="M240,65 Q242,60 244,65" stroke="#DDD" stroke-width="1" />
+    <path d="M250,70 Q252,65 254,70" stroke="#DDD" stroke-width="1" />
+    <path d="M260,75 Q262,70 264,75" stroke="#DDD" stroke-width="1" />
+    <path d="M270,80 Q272,75 274,80" stroke="#DDD" stroke-width="1" />
+  </g>
+  
+  <!-- Coat pockets -->
+  <path d="M140,230 L160,230 L160,280 L140,280 Z" fill="#4D4D4D" stroke="#333" stroke-width="1"/>
+  <path d="M240,230 L260,230 L260,280 L240,280 Z" fill="#4D4D4D" stroke="#333" stroke-width="1"/>
+  
+  <!-- Coat hem and edges -->
+  <path d="M120,330 C140,340 170,345 200,345 C230,345 260,340 280,330" fill="none" stroke="#333" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="rgba(192, 192, 192, 0.4)"/>
+  <g transform="translate(0 50)">
+    <polygon points="40,280 360,260 320,360 80,380" fill="#FF00FF" fill-opacity="0.9"/>
+    <polygon points="80,180 320,150 300,290 100,320" fill="#D6009A" fill-opacity="0.85"/>
+    <polygon points="120,70 280,50 260,200 140,240" fill="#9400D3" fill-opacity="0.8"/>
+    <polygon points="160,20 240,10 220,120 180,140" fill="#4B0082" fill-opacity="0.75"/>
+  </g>
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" result="noise"/>
+    <feBlend in="SourceGraphic" in2="noise" mode="multiply"/>
+  </filter>
+</svg>

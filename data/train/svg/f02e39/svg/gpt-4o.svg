@@ -1,0 +1,40 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4B0082" />
+      <stop offset="100%" stop-color="#2F1B53" />
+    </linearGradient>
+    <linearGradient id="groundGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A1C40" />
+      <stop offset="100%" stop-color="#261A35" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#skyGradient)" />
+  <rect y="300" width="400" height="100" fill="url(#groundGradient)" />
+
+  <ellipse cx="340" cy="80" rx="25" ry="10" fill="#9981AC" opacity="0.6" />
+  <ellipse cx="60" cy="100" rx="25" ry="10" fill="#9981AC" opacity="0.4" />
+
+  <g fill="#473261">
+    <polygon points="50,300 70,180 90,300" />
+    <polygon points="100,300 120,200 140,300" />
+    <polygon points="200,300 220,190 240,300" />
+    <polygon points="300,300 320,210 340,300" />
+  </g>
+
+  <g fill="#583E6E">
+    <polygon points="80,300 100,150 120,300" />
+    <polygon points="180,300 200,160 220,300" />
+    <polygon points="230,300 250,190 270,300" />
+    <polygon points="320,300 340,170 360,300" />
+  </g>
+
+  <g fill="#70558E">
+    <polygon points="20,300 30,220 40,300" />
+    <polygon points="160,300 175,170 190,300" />
+    <polygon points="280,300 295,180 310,300" />
+  </g>
+
+  <circle cx="60" cy="50" r="30" fill="#B39EDB" opacity="0.7" />
+  <circle cx="340" cy="60" r="40" fill="#B39EDB" opacity="0.5" />
+</svg>

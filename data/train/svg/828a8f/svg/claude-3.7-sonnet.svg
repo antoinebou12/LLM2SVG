@@ -1,0 +1,79 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="400" height="400" fill="#94a8c6"/>
+  
+  <!-- Clouds -->
+  <g fill="#e6e9ed">
+    <ellipse cx="70" cy="70" rx="40" ry="20" opacity="0.8"/>
+    <ellipse cx="100" cy="60" rx="50" ry="25" opacity="0.9"/>
+    <ellipse cx="140" cy="80" rx="45" ry="20" opacity="0.85"/>
+    
+    <ellipse cx="250" cy="40" rx="60" ry="25" opacity="0.9"/>
+    <ellipse cx="280" cy="30" rx="40" ry="20" opacity="0.8"/>
+    <ellipse cx="320" cy="50" rx="50" ry="22" opacity="0.85"/>
+    
+    <ellipse cx="180" cy="100" rx="70" ry="30" opacity="0.7"/>
+    <ellipse cx="350" cy="90" rx="50" ry="20" opacity="0.75"/>
+  </g>
+  
+  <!-- Distant hills -->
+  <path d="M0,170 Q100,130 200,160 T400,140 V400 H0 Z" fill="#568a6d"/>
+  
+  <!-- Lagoon -->
+  <path d="M0,200 Q200,180 400,210 V400 H0 Z" fill="#37a367"/>
+  
+  <!-- Lagoon surface -->
+  <path d="M0,210 Q100,205 200,215 T400,205 V400 H0 Z" fill="#43c57a" opacity="0.8"/>
+  
+  <!-- Lagoon ripples -->
+  <g stroke="#2d8658" stroke-width="1" fill="none" opacity="0.5">
+    <path d="M50,220 Q70,218 90,222 T130,220"/>
+    <path d="M150,225 Q170,223 190,227 T230,223"/>
+    <path d="M250,218 Q270,216 290,220 T330,218"/>
+    <path d="M100,240 Q120,238 140,242 T180,240"/>
+    <path d="M200,235 Q220,233 240,237 T280,233"/>
+    <path d="M300,245 Q320,243 340,247 T380,243"/>
+  </g>
+  
+  <!-- Lily pads -->
+  <g>
+    <ellipse cx="80" cy="260" rx="15" ry="10" fill="#2d7048" opacity="0.9"/>
+    <ellipse cx="180" cy="290" rx="18" ry="12" fill="#2d7048" opacity="0.9"/>
+    <ellipse cx="300" cy="270" rx="20" ry="14" fill="#2d7048" opacity="0.9"/>
+    <ellipse cx="250" cy="320" rx="14" ry="10" fill="#2d7048" opacity="0.9"/>
+    <ellipse cx="120" cy="330" rx="16" ry="11" fill="#2d7048" opacity="0.9"/>
+  </g>
+  
+  <!-- Lily flowers -->
+  <g>
+    <circle cx="80" cy="255" r="3" fill="#ffffff"/>
+    <circle cx="180" cy="285" r="4" fill="#ffffff"/>
+    <circle cx="300" cy="265" r="4" fill="#ffffff"/>
+    <circle cx="250" cy="315" r="3" fill="#ffffff"/>
+    <circle cx="120" cy="325" r="3" fill="#ffffff"/>
+  </g>
+  
+  <!-- Reflections -->
+  <g opacity="0.3">
+    <path d="M50,270 Q60,275 70,270" stroke="#e6e9ed" stroke-width="2" fill="none"/>
+    <path d="M200,290 Q210,295 220,290" stroke="#e6e9ed" stroke-width="2" fill="none"/>
+    <path d="M300,310 Q310,315 320,310" stroke="#e6e9ed" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Foreground vegetation -->
+  <g>
+    <path d="M0,380 C20,360 30,370 40,350 C50,370 60,360 80,380 Z" fill="#2b624a"/>
+    <path d="M100,380 C120,350 130,370 150,340 C160,360 180,350 200,380 Z" fill="#2b624a"/>
+    <path d="M280,380 C300,350 310,370 330,340 C340,360 360,350 380,380 Z" fill="#2b624a"/>
+    
+    <!-- Reeds -->
+    <g stroke="#205040" stroke-width="1.5">
+      <path d="M20,380 C22,360 18,350 15,330" fill="none"/>
+      <path d="M30,380 C28,350 32,340 35,320" fill="none"/>
+      <path d="M150,380 C152,350 148,340 145,310" fill="none"/>
+      <path d="M160,380 C158,360 162,340 165,315" fill="none"/>
+      <path d="M320,380 C322,350 318,340 315,310" fill="none"/>
+      <path d="M340,380 C338,360 342,340 345,315" fill="none"/>
+    </g>
+  </g>
+</svg>

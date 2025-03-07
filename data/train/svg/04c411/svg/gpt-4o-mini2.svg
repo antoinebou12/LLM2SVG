@@ -1,0 +1,14 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="darkblue"/>
+  <polygon points="50,300 150,100 250,300" fill="snow" />
+  <polygon points="200,300 350,150 400,300" fill="snow" />
+  <polygon points="100,300 175,50 250,300" fill="snow" />
+  <ellipse cx="100" cy="50" rx="2" ry="2" fill="white"/>
+  <ellipse cx="200" cy="70" rx="2" ry="2" fill="white"/>
+  <ellipse cx="300" cy="40" rx="2" ry="2" fill="white"/>
+  <ellipse cx="50" cy="100" rx="2" ry="2" fill="white"/>
+  <ellipse cx="350" cy="90" rx="2" ry="2" fill="white"/>
+  <ellipse cx="120" cy="200" rx="2" ry="2" fill="white"/>
+  <ellipse cx="300" cy="250" rx="2" ry="2" fill="white"/>
+  <circle cx="200" cy="50" r="10" fill="yellow" />
+</svg>

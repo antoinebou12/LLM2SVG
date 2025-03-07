@@ -1,0 +1,87 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    Stylized interpretation:
+    - Gradient sky (dark at top, lighter near the horizon)
+    - Stars scattered in the sky
+    - Layered mountains
+    - A winding golden path in the valley
+    - Snowy foreground with subtle lumps
+  -->
+
+  <!-- Define gradients -->
+  <defs>
+    <!-- Sky gradient: dark at top transitioning to a softer blue at the horizon -->
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1A33" />
+      <stop offset="80%" stop-color="#375B80" />
+      <stop offset="100%" stop-color="#4D6D90" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="url(#skyGrad)" />
+
+  <!-- Stars in the sky -->
+  <circle cx="100" cy="60"  r="1.5" fill="#FFFFFF" />
+  <circle cx="150" cy="40"  r="2"   fill="#FFFFFF" />
+  <circle cx="220" cy="70"  r="1.2" fill="#FFFFFF" />
+  <circle cx="300" cy="50"  r="1.5" fill="#FFFFFF" />
+  <circle cx="380" cy="90"  r="1.8" fill="#FFFFFF" />
+  <circle cx="460" cy="40"  r="1.2" fill="#FFFFFF" />
+  <circle cx="520" cy="80"  r="1.5" fill="#FFFFFF" />
+  <circle cx="580" cy="60"  r="2"   fill="#FFFFFF" />
+  <circle cx="650" cy="100" r="1.2" fill="#FFFFFF" />
+  <circle cx="720" cy="50"  r="1.5" fill="#FFFFFF" />
+  <circle cx="770" cy="90"  r="2"   fill="#FFFFFF" />
+
+  <!-- Background mountains -->
+  <path d="
+    M 0 300
+    L 100 250
+    L 200 280
+    L 300 240
+    L 400 270
+    L 500 260
+    L 600 280
+    L 700 250
+    L 800 270
+    L 800 600
+    L 0   600
+    Z
+  " fill="#4A4A4A" />
+
+  <!-- Midground mountains -->
+  <path d="
+    M 0 340
+    L 120 290
+    L 220 320
+    L 320 280
+    L 420 310
+    L 520 300
+    L 620 320
+    L 720 290
+    L 800 310
+    L 800 600
+    L 0   600
+    Z
+  " fill="#5A5A5A" />
+
+  <!-- Foreground snow -->
+  <path d="
+    M 0 400
+    C 100 380, 220 420, 320 410
+    C 420 400, 540 440, 640 430
+    L 800 420
+    L 800 600
+    L 0   600
+    Z
+  " fill="#E2E6EF" />
+
+  <!-- Subtle snow lumps in the foreground -->
+  <circle cx="150" cy="530" r="10" fill="#D5DAE2" />
+  <circle cx="220" cy="550" r="12" fill="#D5DAE2" />
+  <circle cx="340" cy="540" r="8"  fill="#D5DAE2" />
+  <circle cx="400" cy="560" r="10" fill="#D5DAE2" />
+  <circle cx="520" cy="550" r="10" fill="#D5DAE2" />
+  <circle cx="620" cy="540" r="12" fill="#D5DAE2" />
+</svg>

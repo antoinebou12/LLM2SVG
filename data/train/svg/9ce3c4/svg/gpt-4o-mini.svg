@@ -1,0 +1,22 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .dodecahedron { fill: maroon; stroke: black; stroke-width: 2; }
+      .thread { stroke: teal; stroke-width: 1; }
+    </style>
+  </defs>
+  <g transform="translate(200,200)">
+    <polygon class="dodecahedron" points="0,-100 95,-31 59,81 -59,81 -95,-31 0,100 0,100" />
+    <polygon class="dodecahedron" points="0,-100 79,32 95,31 0,100 0,100 -80,-32" />
+    <polygon class="dodecahedron" points="0,-100 -95,-31 -79,-32 0,100 0,100 59,81" />
+    <polygon class="dodecahedron" points="0,-100 59,81 95,31 0,100 0,100 -59,-81" />
+    <polygon class="dodecahedron" points="0,-100 -59,-81 -95,-31 0,100 0,100 79,32" />
+    <polygon class="dodecahedron" points="0,100 95,31 79,32 0,-100 0,-100 -95,-31" />
+    <line class="thread" x1="0" y1="-100" x2="95" y2="-31" />
+    <line class="thread" x1="0" y1="-100" x2="-95" y2="-31" />
+    <line class="thread" x1="0" y1="-100" x2="59" y2="81" />
+    <line class="thread" x1="0" y1="100" x2="95" y2="31" />
+    <line class="thread" x1="0" y1="100" x2="-59" y2="81" />
+    <line class="thread" x1="0" y1="-100" x2="59" y2="81" />
+  </g>
+</svg>

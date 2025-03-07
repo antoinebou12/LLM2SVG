@@ -1,0 +1,138 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    Stylized interpretation:
+    - Gradient sky (dark at top, warm glow near horizon)
+    - Subtle Milky Way effect
+    - Scattered stars
+    - Central snow-capped peak
+    - Snowy foreground with a rock/structure and some pines
+  -->
+
+  <!-- Define gradients and patterns -->
+  <defs>
+    <!-- Sky gradient: deep night at top, transitioning to warm glow near horizon -->
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#0A1A33" />
+      <stop offset="70%"  stop-color="#2C4C70" />
+      <stop offset="90%"  stop-color="#466C8F" />
+      <stop offset="100%" stop-color="#F2B96E" />
+    </linearGradient>
+
+    <!-- A subtle Milky Way glow using a radial gradient -->
+    <radialGradient id="milkyWay" cx="50%" cy="15%" r="80%">
+      <!-- White center fading to transparent -->
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0.7" />
+      <stop offset="40%"  stop-color="#FFFFFF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Snow on the main peak -->
+    <linearGradient id="snowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E8E8E8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="url(#skyGrad)" />
+
+  <!-- Milky Way glow -->
+  <circle cx="400" cy="90" r="300" fill="url(#milkyWay)" />
+
+  <!-- Stars scattered across the sky -->
+  <circle cx="100" cy="70"   r="1.5" fill="#FFFFFF" />
+  <circle cx="160" cy="50"   r="2"   fill="#FFFFFF" />
+  <circle cx="220" cy="90"   r="1.2" fill="#FFFFFF" />
+  <circle cx="280" cy="40"   r="1.5" fill="#FFFFFF" />
+  <circle cx="340" cy="80"   r="2"   fill="#FFFFFF" />
+  <circle cx="420" cy="60"   r="1.2" fill="#FFFFFF" />
+  <circle cx="500" cy="90"   r="1.5" fill="#FFFFFF" />
+  <circle cx="580" cy="50"   r="2"   fill="#FFFFFF" />
+  <circle cx="660" cy="100"  r="1.2" fill="#FFFFFF" />
+  <circle cx="740" cy="70"   r="1.5" fill="#FFFFFF" />
+
+  <!-- Mountain silhouettes -->
+  <!-- Farthest mountains -->
+  <path d="
+    M 0 300
+    L 120 260
+    L 220 290
+    L 320 250
+    L 400 280
+    L 480 270
+    L 580 290
+    L 700 260
+    L 800 280
+    L 800 600
+    L 0   600
+    Z
+  " fill="#4A4A4A" />
+
+  <!-- Main peak (closer range) -->
+  <path d="
+    M 0 340
+    L 150 300
+    L 280 320
+    L 380 280
+    L 400 270
+    L 420 280
+    L 520 320
+    L 650 300
+    L 800 320
+    L 800 600
+    L 0   600
+    Z
+  " fill="#5A5A5A" />
+
+  <!-- Snow cap on the main peak -->
+  <path d="
+    M 380 280
+    L 400 270
+    L 420 280
+    L 410 290
+    L 400 285
+    L 390 290
+    Z
+  " fill="url(#snowGrad)" />
+
+  <!-- Foreground snow -->
+  <path d="
+    M 0 420
+    C 120 400, 250 440, 400 430
+    C 550 420, 650 460, 800 440
+    L 800 600
+    L 0   600
+    Z
+  " fill="#E2E6EF" />
+
+  <!-- Pines on the left slope -->
+  <polygon points="100,600 120,450 140,600" fill="#2F4F4F" />
+  <polygon points="60,600 80,470 100,600"  fill="#324F4F" />
+  <polygon points="140,600 160,460 180,600" fill="#2B4949" />
+
+  <!-- A small structure or rock in the right foreground -->
+  <path d="
+    M 600 500
+    L 620 490
+    L 640 500
+    L 640 530
+    L 600 530
+    Z
+  " fill="#5B5B5B" />
+
+  <!-- Snow on top of that structure/rock -->
+  <path d="
+    M 600 500
+    L 620 490
+    L 640 500
+    L 620 505
+    Z
+  " fill="#ECECEC" />
+
+  <!-- Optional lumps or contours in the foreground snow -->
+  <circle cx="180" cy="540" r="10" fill="#D5DAE2" />
+  <circle cx="240" cy="560" r="12" fill="#D5DAE2" />
+  <circle cx="380" cy="550" r="8"  fill="#D5DAE2" />
+  <circle cx="460" cy="570" r="10" fill="#D5DAE2" />
+  <circle cx="700" cy="550" r="12" fill="#D5DAE2" />
+</svg>

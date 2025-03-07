@@ -1,0 +1,108 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    Stylized interpretation of a starry, pre-dawn (or dusk) mountain scene:
+    - Gradient sky with scattered stars
+    - Fading glow near the horizon
+    - Snow-capped mountain peaks
+    - A sloping foreground with ski tracks
+  -->
+
+  <!-- Define gradients -->
+  <defs>
+    <!-- Sky gradient: dark blue at the top, transitioning to a lighter, warm hue near the horizon -->
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A1A33"/>     <!-- deep night sky -->
+      <stop offset="70%" stop-color="#375B80"/>    <!-- mid-tone blue -->
+      <stop offset="100%" stop-color="#F2B96E"/>   <!-- warm horizon glow -->
+    </linearGradient>
+
+    <!-- Snow color for high peaks -->
+    <linearGradient id="snowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#ECECEC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#skyGrad)" />
+
+  <!-- Stars in the upper portion of the sky -->
+  <circle cx="100" cy="80"  r="1.5" fill="#FFFFFF" />
+  <circle cx="160" cy="50"  r="2"   fill="#FFFFFF" />
+  <circle cx="220" cy="90"  r="1.2" fill="#FFFFFF" />
+  <circle cx="300" cy="40"  r="1.5" fill="#FFFFFF" />
+  <circle cx="380" cy="70"  r="2"   fill="#FFFFFF" />
+  <circle cx="440" cy="60"  r="1.2" fill="#FFFFFF" />
+  <circle cx="520" cy="100" r="1.5" fill="#FFFFFF" />
+  <circle cx="600" cy="50"  r="2"   fill="#FFFFFF" />
+  <circle cx="700" cy="80"  r="1.5" fill="#FFFFFF" />
+  <circle cx="750" cy="120" r="2"   fill="#FFFFFF" />
+
+  <!-- Mountain silhouette -->
+  <!-- A middle-range mountain layer in darker color -->
+  <path d="
+    M 0 300
+    L 150 250
+    L 220 270
+    L 300 240
+    L 380 260
+    L 460 230
+    L 540 250
+    L 620 220
+    L 700 250
+    L 800 230
+    L 800 600
+    L 0 600
+    Z
+  " fill="#4A4A4A" />
+
+  <!-- Front mountain range with snow caps (two-layer approach) -->
+  <!-- Darker base -->
+  <path d="
+    M 0 360
+    L 130 300
+    L 200 320
+    L 280 280
+    L 350 300
+    L 420 270
+    L 490 290
+    L 560 260
+    L 630 300
+    L 700 280
+    L 800 260
+    L 800 600
+    L 0 600
+    Z
+  " fill="#555" />
+
+  <!-- Snow caps on the front peaks -->
+  <!-- You can refine these shapes or add more caps as needed -->
+  <path d="
+    M 130 300 L 140 290 160 305 150 310 Z
+    M 280 280 L 290 270 310 285 300 290 Z
+    M 420 270 L 430 260 450 275 440 280 Z
+    M 560 260 L 570 250 590 265 580 270 Z
+  " fill="url(#snowGrad)" />
+
+  <!-- Foreground slope (snow) -->
+  <path d="
+    M 0 400
+    C 100 380, 220 420, 320 410
+    C 420 400, 540 440, 640 430
+    L 800 420
+    L 800 600
+    L 0 600
+    Z
+  " fill="#E2E6EF" />
+
+  <!-- Ski tracks: stylized parallel curves curving into the distance -->
+  <path d="
+    M 100 600
+    C 120 500, 200 450, 320 420
+  " fill="none" stroke="#D0D3DA" stroke-width="4" />
+  <path d="
+    M 130 600
+    C 150 510, 230 460, 350 430
+  " fill="none" stroke="#C8CBD2" stroke-width="4" />
+
+</svg>

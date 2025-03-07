@@ -1,0 +1,31 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient for Sky -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" style="stop-color:#001d3d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00335b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#skyGradient)" />
+  
+  <!-- Stars -->
+  <circle cx="50" cy="50" r="2" fill="white" />
+  <circle cx="100" cy="30" r="1.5" fill="white" />
+  <circle cx="200" cy="80" r="3" fill="white" />
+  <circle cx="350" cy="60" r="2" fill="white" />
+  <circle cx="300" cy="100" r="1" fill="white" />
+  <circle cx="75" cy="150" r="2" fill="white" />
+  <circle cx="250" cy="40" r="1.5" fill="white" />
+  <circle cx="150" cy="110" r="2.5" fill="white" />
+  <circle cx="380" cy="120" r="2" fill="white" />
+
+  <!-- Snow-covered Mountains -->
+  <path d="M100 350 L200 200 L300 350 Z" fill="#8AB0AB" />
+  <path d="M200 350 L300 150 L400 350 Z" fill="#789EA2" />
+  <path d="M0 350 L100 250 L200 350 Z" fill="#A9BCB9" />
+  
+  <!-- Snow caps -->
+  <path d="M200 200 L150 250 L200 250 Z" fill="white" />
+  <path d="M300 150 L250 200 L300 220 Z" fill="white" />
+  <path d="M100 250 L80 280 L100 290 Z" fill="white" />
+</svg>

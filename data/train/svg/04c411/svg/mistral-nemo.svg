@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400">
+  <rect width="100%" height="100%" fill="#000033"/>
+  <polygon points="200,40 100,160 300,160" fill="#FFFFFF"/>
+  <circle cx="200" cy="140" r="80" fill="#FFFFFF"/>
+  <path d="M40,60 Q80,30 160,40 Q200,70 240,40 Q280,30 320,60" stroke="#FFFFFF" fill="transparent" stroke-width="2"/>
+  <circle cx="50" cy="50" r="3" fill="#FFFFFF"/>
+  <circle cx="90" cy="60" r="2" fill="#FFFFFF"/>
+  <circle cx="150" cy="55" r="2" fill="#FFFFFF"/>
+  <circle cx="210" cy="60" r="2" fill="#FFFFFF"/>
+  <circle cx="270" cy="55" r="2" fill="#FFFFFF"/>
+  <circle cx="330" cy="50" r="3" fill="#FFFFFF"/>
+</svg>

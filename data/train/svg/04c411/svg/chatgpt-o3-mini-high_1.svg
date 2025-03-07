@@ -1,0 +1,42 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define a radial gradient for the night sky -->
+  <defs>
+    <radialGradient id="skyGradient" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#000033"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Night sky background -->
+  <rect width="800" height="600" fill="url(#skyGradient)"/>
+
+  <!-- Stars scattered in the sky -->
+  <circle cx="100" cy="80" r="2" fill="white" />
+  <circle cx="200" cy="50" r="1.5" fill="white" />
+  <circle cx="300" cy="120" r="2" fill="white" />
+  <circle cx="400" cy="60" r="1.5" fill="white" />
+  <circle cx="500" cy="90" r="2" fill="white" />
+  <circle cx="600" cy="40" r="1.5" fill="white" />
+  <circle cx="700" cy="100" r="2" fill="white" />
+  <circle cx="150" cy="150" r="1.5" fill="white" />
+  <circle cx="250" cy="100" r="2" fill="white" />
+  <circle cx="350" cy="80" r="1.5" fill="white" />
+  <circle cx="450" cy="110" r="2" fill="white" />
+  <circle cx="550" cy="70" r="1.5" fill="white" />
+  <circle cx="650" cy="90" r="2" fill="white" />
+
+  <!-- A gentle moon to add to the starlit effect -->
+  <circle cx="650" cy="80" r="30" fill="#fdfde2" />
+
+  <!-- Mountains in the foreground -->
+  <!-- Left mountain -->
+  <polygon points="0,500 200,300 400,500" fill="#444" />
+  <!-- Right mountain -->
+  <polygon points="400,500 600,300 800,500" fill="#555" />
+
+  <!-- Snow caps on the peaks -->
+  <!-- Snow cap for left mountain -->
+  <polygon points="180,310 200,300 220,310 200,320" fill="white" />
+  <!-- Snow cap for right mountain -->
+  <polygon points="580,310 600,300 620,310 600,320" fill="white" />
+</svg>
